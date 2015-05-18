@@ -1,0 +1,488 @@
+@charset "UTF-8";
+
+#image-box-wrapper {
+height: auto;
+margin-left: 120px; 
+}
+
+.image-box {
+width:311px;
+height:311px;
+overflow:hidden;
+background-color:rgba(255,255,255,0.5);
+float:left;
+margin:1px 1px;
+font:'Raleway'; 
+color:#333;
+}
+
+.image-container,
+.image-details {
+  height:311px;
+  width:311px; 
+  background-color:rgba(255,255,255,0.5);
+  transition:margin-top .2s ease-out .2s;
+  margin: 0 auto; 
+}
+
+.image-container img {
+  width:311px;
+  height:311px;
+  padding:0 0;
+  margin:0 0;
+  border:none;
+  outline:none;
+  max-width:none;
+  max-height:none;
+  background-color:black;
+}
+
+.image-details h4,
+.image-details p {
+  margin:0 0 .2em;
+  padding:0 0;
+  height:110px;
+}
+
+.image-details h4 {
+  font-size:180%;
+    padding-bottom: 20px; 
+  height:auto;
+}
+
+.image-details .details {
+  padding:10px 12px;
+  overflow:hidden;
+}
+
+.image-details .more {
+  color:white;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  background-color:#343434;
+  height:26px;
+  line-height:26px;
+  margin:10px 0 20px 0px;
+    bottom:0;
+}
+
+.image-details .more1 {
+  color:rgb(255,255,255);
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  background-color:#343562;
+  height:26px;
+  line-height:26px;
+  margin:10px 0 20px 0px;
+    bottom:0;
+}
+
+.image-box:hover {border-color:rgba(255,255,255,0.5)}
+.image-box:hover .image-container {margin-top:-311px}
+.image-details .more:hover {background-color:black}
+.image-details .more1:hover {background-color:black}
+
+a {
+text-decoration: none;
+color: white; 
+font-weight: bold; 
+}
+body {
+width: 100%;
+height: 100%;
+background-image: url(Assets/background5.jpg);
+background-position: left top, right bottom;
+background-repeat: no-repeat, repeat;
+background-size: 1700px;    
+font-family: 'Raleway'
+}
+
+p{
+font-size: 10pt; 
+}
+
+#expImg {
+width: 0 auto; 
+height: 15%; 
+margin-top: 10px; 
+margin-bottom: -35px; 
+}
+
+#exploreImg{
+position:relative; 
+width:100%; 
+margin: 0 auto; 
+}
+
+#city {
+bottom: 0; 
+left: 0; 
+margin: auto 0; 
+width:100%;
+}
+
+#first {
+position:relative;
+height:200px; 
+}
+
+#middle {
+background-color: rgba(0,0,0,0.2);
+overflow: hidden;
+width: 70%; 
+margin: 40px auto; /* center */ 
+border: 1px  black;
+box-shadow: -moz-box-shadow 0 0 8px #888;
+-webkit-box-shadow: 0 0 8px#888;
+box-shadow: 0 0 8px #888;
+text-align: center;
+border-radius: 50px; 
+z-index: 1000; 
+background-image: -webkit-filter: blur(10px); 
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Raleway';
+color:black; 
+z-index: 1000;
+}
+
+#explore {
+width:50px; 
+height:auto 0;
+background-color: rgba(0,0,0,0);
+border: none; 
+z-index: 1000;
+}
+
+
+
+#exploreimgg {
+width: 40%; 
+float: left; 
+clear: right; 
+margin: 0 auto; 
+}
+
+#exploreimgg img {
+width: auto 0; 
+align-content: center;
+position: inherit;
+}
+
+#infor {
+width: 50%; 
+float: right; 
+clear:left;
+margin:0 auto; 
+position: relative;
+    
+}
+
+#head2 {
+text-align: center;
+align-content: center;
+position: relative;
+height:40vc;
+border-bottom: solid black; 
+background-color: #343434; 
+}
+
+#logo {
+height:70px; 
+width: auto;
+}
+
+#things, #things1, #things2, #things3 {
+height:150px; 
+width: 0 auto;
+padding:10px; 
+    
+}
+
+#word1, #word2, #word3, #word4 {
+font-family: 'Raleway'; 
+font-size: 15px; 
+color: white; 
+}
+
+label {
+position: relative;
+}
+
+#explore:hover {
+opacity: 0.5;
+}
+
+#titles {
+font-family: 'Raleway';
+font-size: 52px; 
+text-align: center;
+color: white; 
+}
+
+#title {
+font-size: 60px; 
+color: white;
+font-weight: 600px;
+}
+
+#c1 {
+float:left; 
+width:25%; 
+top: 0;
+}
+
+#c2 {
+
+float: left; 
+width:25%; 
+top: 0;
+}
+
+#c3 {
+float:right; 
+width:25%; 
+top: 0;
+}
+
+#c4 {
+float: right;
+width:25%; 
+top: 0;
+}
+
+#c1 img {
+height:200px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c2 img {
+height:200px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c3 img {
+height:200px; 
+width:auto 0;
+align-content: center;
+}
+
+#c4 img {
+height:200px;
+width:auto 0; 
+align-content: center;
+}
+
+#c1:hover {
+opacity: 0.6; 
+}
+
+#c2:hover {
+opacity: 0.6; 
+}
+
+#c3:hover {
+opacity: 0.6; 
+}
+
+#c4:hover {
+opacity: 0.6; 
+}
+
+#middle1 {  
+width:100%; 
+height: 220px;
+align-content: center;
+} 
+
+body#club11 a#page1{
+opacity: 0.5; 
+}
+/* OTHER PAGES */ 
+
+#c11 img {
+height:70px; 
+width:auto 0; 
+align-content: center;
+
+}
+
+#c22 img {
+height:70px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c33 img {
+height:70px; 
+width:auto 0;
+align-content: center;
+}
+
+#c44 img {
+height:70px;
+width:auto 0; 
+align-content: center;
+}
+
+#c11 {
+float:left; 
+width:25%; 
+top: 0;
+}
+
+#c22 {
+
+float: left; 
+width:25%; 
+top: 0;
+}
+
+#c33 {
+
+float:right; 
+width:25%; 
+top: 0;
+}
+
+#c44 {
+
+float: right;
+width:25%; 
+top: 0;
+}
+
+#c11:hover {
+opacity: 0.6; 
+}
+
+#c22:hover {
+opacity: 0.6; 
+}
+
+#c33:hover {
+opacity: 0.6; 
+}
+
+#c44:hover {
+opacity: 0.6; 
+}
+
+
+/* END OTHER PAGES */ 
+
+/*added stuff */ 
+
+#first {
+border: solid black; 
+width:80%;
+height:400px;  
+}
+
+@media screen and (max-width : 1100px){
+
+#word1, #word2, #word3, #word4 {
+font-family: 'Raleway'; 
+font-size: 16px; 
+}
+    
+ #c1 {
+float:left; 
+width:50%; 
+top: 0;
+}
+
+#c2 {
+
+float: right; 
+width:50%; 
+top: 0;
+}
+
+#c3 {
+
+float:left; 
+width:50%; 
+top: 0;
+}
+
+#c4 {
+
+float: right;
+width:50%; 
+top: 0;
+}   
+
+#c11 img {
+height:58px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c22 img {
+height:58px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c33 img {
+height:58px; 
+width:auto 0;
+align-content: center;
+}
+
+#c44 img {
+height:58px;
+width:auto 0; 
+align-content: center;
+}
+
+  }
+
+@media screen and (max-width : 568px){
+    
+#word1, #word2, #word3, #word4 {
+font-family: 'Raleway'; 
+font-size: 10px; 
+} 
+
+#c11 img {
+height:40px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c22 img {
+height:40px; 
+width:auto 0; 
+align-content: center;
+}
+
+#c33 img {
+height:40px; 
+width:auto 0;
+align-content: center;
+}
+
+#c44 img {
+height:40px;
+width:auto 0; 
+align-content: center;
+}
+
+#title {
+font-size: 50px; 
+}
+    
+#image-box-wrapper {
+height: auto;
+margin-left: 20px; 
+}
+  }
